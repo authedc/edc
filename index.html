@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryption Decryption</title>
+    <style>
+      * {
+        background-color: #1f1f1f;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="data" placeholder="Data" />
+    <input type="text" id="key" placeholder="Key" />
+    <div>
+      <button id="encrypt">Encrypt</button>
+      <button id="decrypt">Decrypt</button>
+      <button id="reset">Reset</button>
+    </div>
+    <p></p>
+    <button id="copy">Copy</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
